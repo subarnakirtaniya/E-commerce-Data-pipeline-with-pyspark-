@@ -1,0 +1,17 @@
+Connect Power BI to PostgreSQL.
+
+Create these visuals:
+
+Dashboard
+
+1️⃣ Daily Revenue Trend
+2️⃣ Top Selling Products
+3️⃣ Customer Revenue Ranking
+4️⃣ Category Sales Distribution
+
+Charts:
+
+Line Chart → Daily Sales
+Bar Chart → Product Sales
+Pie Chart → Category Sales
+Table → Customer Spending
