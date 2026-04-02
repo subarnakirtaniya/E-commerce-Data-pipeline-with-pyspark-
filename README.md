@@ -1,5 +1,43 @@
 # E-commerce-Data-pipeline-with-pyspark-
 Build a pipeline that extracts sales data → transforms it → loads into a warehouse → creates analytics dashboard.
+                 +----------------------+
+                 |   Sales CSV Dataset  |
+                 |   (50,000 records)   |
+                 +----------+-----------+
+                            |
+                            |
+                            v
+                +-----------------------+
+                |     PySpark ETL       |
+                | Extract + Transform   |
+                | Data Cleaning         |
+                +----------+------------+
+                           |
+                           |
+                           v
+                +-----------------------+
+                |     PostgreSQL        |
+                |   Data Warehouse      |
+                |  (Fact + Aggregates)  |
+                +----------+------------+
+                           |
+                           |
+                           v
+                +-----------------------+
+                |   Apache Airflow      |
+                |  Schedule ETL DAG     |
+                |  Daily Batch Run      |
+                +----------+------------+
+                           |
+                           |
+                           v
+                +-----------------------+
+                |      Power BI         |
+                |  Sales Dashboard      |
+                |  Business Insights    |
+                +-----------------------+
+                
+
 # End-to-End Data Engineering Pipeline
 
 This project demonstrates a complete Data Engineering pipeline using PySpark, PostgreSQL, and Airflow.
