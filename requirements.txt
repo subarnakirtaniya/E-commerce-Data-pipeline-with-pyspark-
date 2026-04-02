@@ -1,0 +1,9 @@
+pyspark
+psycopg2
+apache-airflow
+pandas
+
+
+install:
+
+pip install -r requirements.txt
