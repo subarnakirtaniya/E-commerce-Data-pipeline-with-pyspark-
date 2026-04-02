@@ -1,0 +1,24 @@
+sales-data-engineering-project
+│
+├── data
+│   └── sales_data.csv
+│
+├── etl
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+│
+├── airflow_dag
+│   └── sales_pipeline_dag.py
+│
+├── sql
+│   └── create_tables.sql
+│
+├── dashboard
+│   └── powerbi_dashboard.pbix
+│
+├── scripts
+│   └── generate_dataset.py
+│
+├── requirements.txt
+└── README.md
