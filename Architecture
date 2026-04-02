@@ -1,0 +1,11 @@
+CSV Data
+   ↓
+PySpark ETL
+   ↓
+Data Transformation
+   ↓
+PostgreSQL Data Warehouse
+   ↓
+Airflow Scheduled Pipeline
+   ↓
+Power BI Dashboard
